@@ -31,7 +31,7 @@ const Layout: FC<LayoutProps> = ({ children }) => {
         <link rel='manifest' href='/site.webmanifest'></link>
       </Head>
       {/* <NavBar/> */}
-      <div className='w-full min-h-screen oxh'>
+      <div className='w-full min-h-screen overflow-x-hidden bg-dark text-white'>
         <main className='max-w-7xl mx-auto'>{children}</main>
       </div>
       {/* <Footer/> */}
