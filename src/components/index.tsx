@@ -1,2 +1,5 @@
 export { default as BaseLayout } from './Layout'
 export { default as Title } from './Title'
+export { default as NavBar } from './NavBar'
+export { default as Button } from './Button'
+export { default as NavItem } from './NavItem'

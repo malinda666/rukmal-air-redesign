@@ -13,9 +13,11 @@ module.exports = {
         third: '#fca311',
         light: '#e5e5e5',
         white: '#ffffff',
+        accent: '#1bb0ce',
       },
       fontFamily: {
         title: ['Aesthetic', 'sans-serif'],
+        body: ['Inter', 'sans-serif'],
       },
     },
   },

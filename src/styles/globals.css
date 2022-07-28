@@ -13,3 +13,7 @@ html,
 body {
   font-family: 'Inter', sans-serif;
 }
+
+.tr {
+  @apply duration-300 ease-out;
+}

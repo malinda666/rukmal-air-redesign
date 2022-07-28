@@ -5,6 +5,8 @@ interface LayoutProps {
   children: ReactNode
 }
 
+import NavBar from './NavBar'
+
 const Layout: FC<LayoutProps> = ({ children }) => {
   return (
     <>
@@ -30,9 +32,9 @@ const Layout: FC<LayoutProps> = ({ children }) => {
         <link rel='shortcut icon' href='/favicon.ico' type='image/x-icon' />
         <link rel='manifest' href='/site.webmanifest'></link>
       </Head>
-      {/* <NavBar/> */}
+      <NavBar />
       <div className='w-full min-h-screen overflow-x-hidden bg-dark text-white'>
-        <main className='max-w-7xl mx-auto'>{children}</main>
+        <main className='w-full mx-auto'>{children}</main>
       </div>
       {/* <Footer/> */}
     </>
